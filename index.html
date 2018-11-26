@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+	<title>Home - Author Portfolio</title>
+  <link href="stylesheet" src="style.css">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+<div class="container">
+	<nav></nav>
+	<section>
+	<form id="real-form">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" required></td> <!-- password type hides input -->
+			</tr>
+			<tr>
+			<tr>
+				<td>Birthday</td>
+				<td><input type="date" max="1997-11-26" min="1917-11-26" required></td>
+			</tr>
+			<tr>
+				<td>Birthday</td>
+				<td><input type="datetime-local" max="1997-11-26" min="1917-11-26"></td>
+			</tr>
+			<tr>
+				<td>Experience</td>
+				<td><input type="number" required></td> <!-- gives list arrow -->
+			</tr>
+				<td>Gender</td>
+				<td>
+					<select> <!-- Drop Down Menu -->
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<tr>
+				<td>Salary Expectation</td>
+				<td><input type="range" min="60000" max="200000" value="80000" step="20000"></td>
+			</tr>
+			</tr>
+		</table>
+		</form>
+		<article>
+		<h1></h1>
+		<div id="meta"></div>
+		<p></p>
+		</article>
+	</section>
+	<aside>
+		<div id="side-top">
+			<h1>Latest Posts</h1>
+			<div id="latest-posts-list">
+				<div class="latest-posts">First Post Title</div>
+			</div>
+		</div>
+		<div id="side-bottom">
+			<h1>News Letter</h1>
+			<form>
+				<input type="email">
+				<input type="submit"> <!-- in html5 don't need regex to validate email format -->
+			</form>
+		</div>
+	</aside>
+	<div style="clear:both;"></div>
+	<footer></footer>
+	</div>
+</body>
+</html>

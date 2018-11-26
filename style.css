@@ -1,0 +1,131 @@
+/*THIS IS CSS3- LATEST FORMATTING */
+
+/* * is universal selector */
+* {
+	margin: 10px;
+	padding: 10px; /* This is auto size- 10px */
+}
+
+body {
+	background: url(img1.jpg); /* Filezille hosts all folders for paths */
+}
+
+#container {
+	width: 90%; /*90% of entire display screen */
+	height: 300px;
+	background: #F9F9F9;
+	margin: 0 auto; /* trick to put in center of screen */
+	box-shadow: 0 0 5px black;
+}
+
+header {
+	background: #983030;
+	color: white; /* color, not text-color */
+	padding: 10px;
+}
+
+header h1 {
+	margin-left: 10px;
+}
+
+nav {}
+	nav ul {
+		background: #269699;
+	}
+		nav li {
+			list-style: none;
+			float: left;
+			width: 80%;
+			padding: 10px 0px;
+			text-align: center;
+		}
+		nav li:hover {
+			background: #B15859;
+		}
+
+section { /* html5 tag for middle of website */
+	width: 100%;
+	height: 300px;
+	background: white;
+}
+
+#real-form {
+	margin: 10px;
+}
+
+	#real-form table {
+
+	}
+		#real-form table tr {
+			height: 30px;
+		}
+			#real-form table td {}
+				#real-form input, #reg-form select {
+					height: 40px;
+				}
+
+	article {
+		background: white;
+	}
+		article h1 {
+			font-size 30px;
+		}
+		article p {
+			margin: 0 auto;
+		}
+
+		#meta { /* div tag id name, not keyword */
+			size: 15px;
+		}
+
+aside {
+	float: left;
+	width: 30%;
+}
+
+#side-top {
+	background: white;
+}
+	#side-top h1 {
+		text-align: center;
+		text-decoration: underline;
+		font-size: 20px;
+		padding: 5px 10px;
+	}
+	#side-post-list {
+		padding: 20px;
+	}
+		.latest-posts {
+			width: 100px;
+			height: 50px;
+			background: red;
+			margin: 10px;
+		}
+
+#side-bottom {
+	background: white;
+}
+	#side-bottom h1 {
+		text-align: center;
+		text-decoration: underline;
+		font-size: 20px;
+		padding: 5px 10px;
+	}
+	#side-bottom form {}
+			#side-bottom form input[type='email']{
+				width: 70%; /* Make size % for zoom formatting */
+				height: 30px;
+			}
+			#side-bottom form input[type='submit']{
+				width: 280px;
+				height: 30px;
+				margin-top: 10px;
+				background: #FF9900;
+				border: 1px solid black;
+			}
+
+footer {
+	background: B15859;
+	color: white;
+	text-align: center;
+}
